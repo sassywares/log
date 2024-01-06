@@ -1,6 +1,6 @@
 {
   "name": "@sassywares/trunk",
-  "version": "0.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "Trunk is a simple set of utilities for your JavaScript applications. Read the documentation at https://github.com/sassywares/trunk#readme",
   "main": "src/index.ts",
