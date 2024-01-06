@@ -26,7 +26,7 @@
     "test.watch": "vitest",
     "format": "npm run lint.fix && prettier --write .",
     "dev": "tsc -w",
-    "build": "tsc",
+    "build": "tsc --declaration",
     "commit": "bash ./.scripts/commit.sh",
     "push": "git push && git push --tags",
     "release.prepare": "bash ./.scripts/release-prepare.sh",
