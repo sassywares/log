@@ -1,14 +1,13 @@
 {
-  "name": "@sassywares/crust",
-  "version": "1.0.8",
-  "description": "Crust is a simple boilerplate for creating and publishing packages to NPM. It includes a basic configuration for TypeScript, ESLint, Prettier, Vitest, and Changesets as well as a simple list of scripts for linting, testing, building, and publishing your package as well as a simple CI/CD workflow for GitHub Actions",
+  "name": "@sassywares/trunk",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Trunk is a simple set of utilities for your JavaScript applications. Read the documentation at https://github.com/sassywares/trunk#readme",
   "main": "src/index.ts",
   "keywords": [
-    "boilerplate",
     "typescript",
-    "eslint",
-    "prettier",
-    "changesets"
+    "javascript",
+    "utilities"
   ],
   "author": {
     "name": "Kashan Ahmad",
@@ -17,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sassywares/crust.git"
+    "url": "git+https://github.com/sassywares/trunk.git"
   },
   "license": "MIT",
   "scripts": {
@@ -43,6 +42,7 @@
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "eslint": "^8.55.0",
+    "jsdom": "^23.1.0",
     "prettier": "^2.8.8",
     "typescript": "^5.3.3",
     "vite": "^5.0.10",
