@@ -149,7 +149,7 @@ msToSeconds(2000);
 
 ## Contributing
 
-Trunk comes from the community for the community. We are always looking for ways to improve Trunk and make it better. If you have any suggestions, ideas, or feedback, please open an issue or a pull request.
+Trunk comes from the community for the community. As you know, I made trunk as a way to have all the functions I use again and again to be in a separate package. You can do the same and contribute to trunk, add your functions, write their tests and then re-use them anywhere you want. I'm always looking for ways to improve Trunk and make it better. If you have any suggestions, ideas, or feedback, please open an issue or a pull request.
 
 ## License
 
