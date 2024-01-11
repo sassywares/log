@@ -2,7 +2,29 @@
 
 [![npm version](https://badge.fury.io/js/%40sassywares%2Ftrunk.svg)](https://badge.fury.io/js/%40sassywares%2Ftrunk) ![Builds](https://github.com/sassywares/trunk/actions/workflows/release.yml/badge.svg)
 
-Trunk is a set of utilities for JavaScript applications. Read more below.
+Trunk is a set of utilities for JavaScript applications. Read more [below](#functions). Trunk is built using [Crust](https://github.com/sassywares/crust), a simple boilerplate for creating and publishing packages to NPM.
+
+## Getting Started
+
+To get started with Trunk, install it using NPM, Yarn, or PNPM:
+
+```bash
+npm install @sassywares/trunk
+```
+
+```bash
+yarn add @sassywares/trunk
+```
+
+```bash
+pnpm add @sassywares/trunk
+```
+
+Then, import the functions you need:
+
+```js
+import { isObject, detectBrowser } from '@sassywares/trunk';
+```
 
 ## Functions
 
@@ -123,28 +145,6 @@ msToSeconds(1000);
 
 // Returns 2
 msToSeconds(2000);
-```
-
-## Getting Started
-
-To get started with Trunk, install it using NPM, Yarn, or PNPM:
-
-```bash
-npm install @sassywares/trunk
-```
-
-```bash
-yarn add @sassywares/trunk
-```
-
-```bash
-pnpm add @sassywares/trunk
-```
-
-Then, import the functions you need:
-
-```js
-import { isObject, detectBrowser } from '@sassywares/trunk';
 ```
 
 ## Contributing
